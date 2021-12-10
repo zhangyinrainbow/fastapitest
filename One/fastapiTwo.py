@@ -25,4 +25,4 @@ async def postdate(
     return {"people_id": people_idone, "people_id_three": people_id_str[people_id_three]}
 
 
-uvicorn.run(app='fastapiOne:app', host='127.0.0.1', port=8100, reload=True, debug=True)
+uvicorn.run(app='fastapiTwo:app', host='127.0.0.1', port=8100, reload=True, debug=True)
